@@ -1,0 +1,26 @@
+html,
+body {
+  background-color: black;
+}
+.bars-container {
+  margin: 0;
+  padding: 50 0;
+  background-color: black;
+}
+
+.number-bar {
+  width: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+  margin: 0 1px;
+  border-radius: 5px 5px 0 0;
+}
+
+.selection-bar {
+  cursor: pointer !important;
+  color: white !important;
+}
+
+.selection-bar:hover {
+  background-color: black !important;
+}
